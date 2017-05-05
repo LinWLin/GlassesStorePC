@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/glasses_index.css">
+</head>
+<body>
+	<header id="header"></header>
+
+	<form>
+	<div class="bodyer">
+        <div id="bodyer" class="layout clearfix">
+            <div class="loginbox register">
+                <div class="head">
+                    <strong class="title">新用户注册</strong></div>
+                <div class="body clearfix">
+                    <div class="form">
+                        <ul>
+                            <li>
+                                <div class="label">
+                                    账户名：</div>
+                                <div class="content">
+                                    <input type="text" maxlength="32" class="login_tbox comm_tbox_2" placeholder="请输入手机号或者邮箱" />
+                                    <p id="chkEmail" class="comment">
+                                        请输入手机/邮箱</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="label">
+                                    输入密码：</div>
+                                <div class="content">
+                                    <input type="password" maxlength="16" class="login_tbox comm_tbox_2" placeholder="请输入密码" />
+                                    <p id="chkPwd" class="comment">
+                                        6-16位字符，可使用字母、数字或符号的组合</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="label">
+                                    再次输入密码：</div>
+                                <div class="content">
+                                    <input type="password" maxlength="16" class="login_tbox comm_tbox_2" placeholder="请再次输入密码" />
+                                    <p id="chkRePwd" class="comment">
+                                        请再次输入登录密码，两次输入必须一致</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="label">
+                                </div>
+                                <div class="content">
+                                    <input type="submit" value="同意协议并注册" class="btn_register" />
+                                    <p class="pact">
+                                        <a href="#">《亿超服务协议》</a></p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="notice">
+                        <div class="gologin">
+                            我已经注册，现在就 <a class="comm_btn_white" href="glasses_login.html"><i>登 录</i></a>
+                            <br />
+                            <br />
+                            <p>
+                                联合登录 <a href="#">
+                                    <img class="icon" src="images/img/icon_qq.gif" /><span>QQ登录</span></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a
+                                        href="#"><img class="icon" src="images/img/icon_alipay.gif" /><span>支付宝登录</span></a>
+                              </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </form>
+
+
+
+
+	<footer id="footer"></footer>
+<script type="text/javascript" src="js/jquery-1.12.4.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$('#header').load('js/header.php');
+		$('#footer').load('js/footer.php');
+	})
+</script>
+</body>
+</html>

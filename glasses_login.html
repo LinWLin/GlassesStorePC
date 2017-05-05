@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/glasses_index.css">
+</head>
+<body>
+	<header id="header"></header>
+
+
+	<form>
+		<div class="bodyer">
+			<div class="layout clearfix">
+				<div class="new-login">
+					<div class="login-form">
+						<h2>会员登录</h2>
+						<ul>
+							<li>
+								<div class="label">账户名</div>
+								<div class="content">
+									<input type="text" defaultvalue="邮箱、手机号" class="login_tbox comm_tbox_2">
+								</div>	
+							</li>
+							<li>
+                            	<div class="label">密 码</div>
+                            	<div class="content">
+                                <input type="password" maxlength="16" class="login_tbox comm_tbox_2">
+                            </div>
+                        	</li>
+                        	<li>
+                            	<div class="label">验证码</div>
+                            	<div class="content">
+                                	<input type="text" class="comm_tbox_2" style="width:80px;">
+                            	</div>
+                        	</li>
+                        	<li style="margin-top:10px;">
+	                            <div class="label"></div>
+                            	<div class="content">
+                                	<input type="submit" value="登 录" class="btn_login">
+                                	<a style="color: #999;" href="#">忘记密码?</a>
+                            	</div>
+                        	</li>
+						</ul>
+						<div class="parent">
+							<p>联合登录<a href="#"><img class="icon" src="images/img/icon_qq.gif"><span>QQ登录</span></a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#"><img class="icon" src="images/img/icon_alipay.gif"><span>支付宝登录</span></a></p>
+							<p>
+                            还不是会员？<a href="#">免费注册</a></p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</form>
+
+
+
+
+
+	<footer id="footer"></footer>
+<script type="text/javascript" src="js/jquery-1.12.4.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$('#header').load('js/header.php');
+		$('#footer').load('js/footer.php');
+	})
+</script>
+</body>
+</html>
